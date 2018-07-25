@@ -8,5 +8,9 @@ module binarycell(sel,data,rw,clk,out);
  assign w3 = ~w1 & q;
  assign w4 = w2 | w3;
  dflipflop binflop(w4,clk,q);
- assign out = q & sel & rw ;
+ always @ ( clk or sel or q ) begin
+	if ((clk == 1) & (sel==1)) begin
+		out <= data;
+	end
+ end
 endmodule
