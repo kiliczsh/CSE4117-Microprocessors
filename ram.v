@@ -25,7 +25,7 @@ module ram(s0,s1,a0,a1,data,rw,clk,out);
  
  binarycell cell003(c1,data,rw,clk,out003);
  
- binarycell cell004(c1,data,rw,clk,out003);
+ binarycell cell004(c1,data,rw,clk,out004);
  
  binarycell cell005(c1,data,rw,clk,out005);
  
