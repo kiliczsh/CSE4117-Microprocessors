@@ -1,9 +1,9 @@
-module alu(A,B,ALU_Sel,ALU_Out,carry,zero,neg);
+module alu(A,B,ALU_Sel,ALU_Out,carry,zero,neg,over);
 
 input [7:0] A,B;
 input [2:0] ALU_Sel;
 output [7:0] ALU_Out;
-output carry,zero,neg;
+output carry,zero,neg,over;
 
 wire  [8:0] tmp ;
 
@@ -26,6 +26,7 @@ assign tmp = A+B;
 assign carry = tmp[8];
 assign zero = ~(ALU_Out[7] | ALU_Out[6] | ALU_Out[5] | ALU_Out[4] | ALU_Out[3] | ALU_Out[2] | ALU_Out[1] | ALU_Out[0]);
 assign neg = ALU_Out[7] ;
+assign over = (A[7] & B[7] & ~ALU_Out[7]) | (~A[7] & ~B[7] & ALU_Out[7]);
 
 
 endmodule
