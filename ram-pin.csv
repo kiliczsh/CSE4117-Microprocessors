@@ -14,28 +14,28 @@
 
 # Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 # File: C:\Users\LabComputer1\Desktop\ram-pin.csv
-# Generated on: Wed Aug 01 13:35:33 2018
+# Generated on: Wed Aug 01 14:36:00 2018
 
 # Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
 
 To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
-clk,Input,PIN_Y24,5,B5_N2,PIN_J1,,,,,
-data[7],Input,PIN_AB26,5,B5_N1,PIN_R2,,,,,
-data[6],Input,PIN_AD26,5,B5_N2,PIN_R5,,,,,
-data[5],Input,PIN_AC26,5,B5_N2,PIN_R1,,,,,
-data[4],Input,PIN_AB27,5,B5_N1,PIN_R7,,,,,
-data[3],Input,PIN_AD27,5,B5_N2,PIN_R6,,,,,
-data[2],Input,PIN_AC27,5,B5_N2,PIN_U3,,,,,
-data[1],Input,PIN_AC28,5,B5_N2,PIN_V3,,,,,
-data[0],Input,PIN_AB28,5,B5_N1,PIN_R3,,,,,
-out[7],Output,PIN_H19,7,B7_N2,PIN_V4,,,,,
-out[6],Output,PIN_J19,7,B7_N2,PIN_T3,,,,,
-out[5],Output,PIN_E18,7,B7_N1,PIN_T4,,,,,
-out[4],Output,PIN_F18,7,B7_N1,PIN_U4,,,,,
-out[3],Output,PIN_F21,7,B7_N0,PIN_U2,,,,,
-out[2],Output,PIN_E19,7,B7_N0,PIN_P1,,,,,
-out[1],Output,PIN_F19,7,B7_N0,PIN_AB1,,,,,
-out[0],Output,PIN_G19,7,B7_N2,PIN_R4,,,,,
-rw,Input,PIN_AA22,5,B5_N2,PIN_T7,,,,,
-s0,Input,PIN_AA23,5,B5_N2,PIN_V2,,,,,
-s1,Input,PIN_AA24,5,B5_N2,PIN_U1,,,,,
+clk,Input,PIN_Y24,5,B5_N2,PIN_Y24,,,,,
+data[7],Input,PIN_AB26,5,B5_N1,PIN_AB26,,,,,
+data[6],Input,PIN_AD26,5,B5_N2,PIN_AD26,,,,,
+data[5],Input,PIN_AC26,5,B5_N2,PIN_AC26,,,,,
+data[4],Input,PIN_AB27,5,B5_N1,PIN_AB27,,,,,
+data[3],Input,PIN_AD27,5,B5_N2,PIN_AD27,,,,,
+data[2],Input,PIN_AC27,5,B5_N2,PIN_AC27,,,,,
+data[1],Input,PIN_AC28,5,B5_N2,PIN_AC28,,,,,
+data[0],Input,PIN_AB28,5,B5_N1,PIN_AB28,,,,,
+out[7],Output,PIN_H19,7,B7_N2,PIN_H19,,,,,
+out[6],Output,PIN_J19,7,B7_N2,PIN_J19,,,,,
+out[5],Output,PIN_E18,7,B7_N1,PIN_E18,,,,,
+out[4],Output,PIN_F18,7,B7_N1,PIN_F18,,,,,
+out[3],Output,PIN_F21,7,B7_N0,PIN_F21,,,,,
+out[2],Output,PIN_E19,7,B7_N0,PIN_E19,,,,,
+out[1],Output,PIN_F19,7,B7_N0,PIN_F19,,,,,
+out[0],Output,PIN_G19,7,B7_N2,PIN_G19,,,,,
+rw,Input,PIN_AA22,5,B5_N2,PIN_AA22,,,,,
+s0,Input,PIN_AA24,5,B5_N2,PIN_AA23,,,,,
+s1,Input,PIN_AA23,5,B5_N2,PIN_AA24,,,,,
