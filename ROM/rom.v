@@ -1,8 +1,8 @@
-module rom(addr,clk ,output); 
-output[15:0] output;
+module rom(addr,clk ,out); 
+output[15:0] out;
 input[2:0] addr;
 input clk;
-reg [15:0] output;
+reg [15:0] out;
 reg [15:0] ROM[15:0];
 
 always @(negedge clk)
