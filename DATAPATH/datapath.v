@@ -1,6 +1,6 @@
 module datapath(clk,resetC,resetA);
 input clk,resetA,resetC;
-wire[2:0] count;
+  wire[2:0] count,ALU_Sel;
 wire[7:0] inst;
 wire[7:0] A,B,ALU_Out;
 output carry,zero,neg,over;
