@@ -9,6 +9,6 @@ always@(clk) begin
 if(reset)
 acc <= 8’b00000000;
 else
-acc <= acc + in;
+acc <= in;
 end
 endmodule
