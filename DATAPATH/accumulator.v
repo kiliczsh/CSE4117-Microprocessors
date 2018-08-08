@@ -7,6 +7,6 @@ reg [7:0] acc;
 
 always@(posedge clk) begin
   if(exec)
-    acc <= in;
+    acc = in;
   end
 endmodule
