@@ -5,7 +5,7 @@ input reset;
 output [2:0] count;
 reg [2:0] count;
 
-always @(negedge clk)
+always @(posedge clk)
 	if (!reset)
 		if(count < 7)
 			count = count + 1;
