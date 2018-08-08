@@ -3,7 +3,9 @@ input[10:0] inst;
 input clk;
 output[7:0] A;
 output[2:0] ALU_Sel;
-  
+reg [2:0] ALU_Sel;
+reg [7:0] A;
+
 always @ (posedge clk)
 begin
   ALU_Sel[0] <= inst[0];

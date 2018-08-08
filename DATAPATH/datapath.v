@@ -10,5 +10,5 @@ rom im(count,clk,inst);
 instreg ir(inst,clk,A,ALU_Sel);
 alu alu_8(A,B,ALU_Sel,ALU_Out,carry,zero,neg,over);
 accumulator acc(ALU_Out, B, clk, resetA);
-  
+
 endmodule
