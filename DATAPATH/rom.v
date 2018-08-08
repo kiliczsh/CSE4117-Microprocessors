@@ -16,7 +16,7 @@ initial begin
     ROM[7]=11'h400; //MOV 0 
 end
 
-always @(negedge clk)
+always @(posedge clk)
 begin
     out<=ROM[addr];
 end
