@@ -1,4 +1,4 @@
-module datapath(clk,resetC,resetA);
+module datapath(clk,resetC,resetA,carry,zero,neg,over);
 input clk,resetA,resetC;
   wire[2:0] count,ALU_Sel;
 wire[7:0] inst;
