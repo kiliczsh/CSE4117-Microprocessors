@@ -1,14 +1,12 @@
-module accumulator (in, acc, clk, reset);
+module accumulator (in, acc, clk, exec);
 
 input [7:0] in;
-input clk, reset;
-  output [7:0] acc;
+input clk, exec;
+output [7:0] acc;
 reg [7:0] acc;
 
-always@(clk) begin
-if(reset)
-acc <= 0;
-else
-acc <= in;
-end
+always@(posedge clk) begin
+  if(exec)
+    acc <= in;
+  end
 endmodule
