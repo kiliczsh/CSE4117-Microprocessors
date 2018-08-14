@@ -19,7 +19,7 @@ assign Result101 = A<<1;
 
 assign Result110 = A>>1;
 assign Result111 = 0;
-  
+
 assign tmp0=A+B;
 assign tmp1=A-B;
 
