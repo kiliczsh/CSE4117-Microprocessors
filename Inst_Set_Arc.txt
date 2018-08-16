@@ -1,9 +1,0 @@
-R-type Instructions:
-
-ADDA <imm> - Affected flags: Z,C,N,O
-SUBA <imm> - Affected flags: Z,C,N,O
-ANDA <imm> - Affected flags: Z,N
-ORA <imm> - Affected flags: Z,N
-MOVA <imm> - Affected flags: Z,N
-SHFTA <imm> - Affected flags: Z,N (Shift left)
-SHFTRA <imm> - Affected flags: Z,N (Shift Right)
