@@ -1,0 +1,8 @@
+MOVA 2 - 402
+SUBA 2 - 102
+SIZ    - 1b00
+BRA 0  - 1800
+ADDA 5 - 0005
+BIZ 0  - 1a00
+SUBA 6 - 106
+BIN 3  - 1903
